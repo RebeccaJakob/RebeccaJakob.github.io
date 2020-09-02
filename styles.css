@@ -38,6 +38,10 @@ a:active {
     float: left;
 }
 
+.img-container {
+        text-align: center;
+      }
+
 p {
     padding: 1px;
 	margin-left: 10px;
