@@ -1,0 +1,60 @@
+body  {
+  background-image: url("tapet.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: green;
+} 
+
+#menu {
+    background: #FFFFFF;
+    width: 80%;
+    float: left;
+	margin-bottom: 50px;
+}
+
+#content {
+    background: #FFFFFF;
+    width: 80%;
+    float: left;
+}
+
+p {
+    padding: 1px;
+	margin-left: 10px;
+}
+h1 {
+    padding: 1px;
+	margin-left: 10px;
+}
+h2 {
+    padding: 1px;
+	margin-left: 10px;
+}
+h3 {
+    padding: 1px;
+	margin-left: 10px;
+}
+h4 {
+    padding: 1px;
+	margin-left: 10px;
+}
