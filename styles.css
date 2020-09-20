@@ -23,18 +23,18 @@ a:hover {
 /* selected link */
 a:active {
   color: green;
-} 
+}
 
 #menu {
     background: #FFFFFF;
-    width: 80%;
+    /* width: 80%; */
     float: left;
 	margin-bottom: 50px;
 }
 
 #content {
     background: #FFFFFF;
-    width: 80%;
+    /* width: 80%; */
     float: left;
 }
 

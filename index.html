@@ -1,43 +1,70 @@
  <!DOCTYPE html>
 <html>
 <head>
+  <!-- <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <title>Rebecca and Jakob's Wedding Site</title>
-<link rel="stylesheet" href="styles.css">
-<div id="menu">
-<p>
-<a href="index.html">home</a> &emsp;
-<a href="rsvp.html">rsvp</a> &emsp;
-<a href="schedule.html">schedule</a> &emsp;
-<a href="travel.html">travel</a> &emsp;
-<a href="locations.html">locations</a> &emsp;
-<a href="accomodation.html">accomodation</a> &emsp;
-<a href="things-to-do.html">things to do</a> &emsp;
-<a href="registry.html">registry</a>
-</p>
-</div>
+
 </head>
 <body>
+  <link rel="stylesheet" href="styles.css">
+  <div class="container float-left col-9">
+    <nav class="navbar navbar-expand-md bg-white navbar-light">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon navbar-light"></span>
+      </button>
 
-<div id="content">
-<h1>We're getting married...</h1>
-<p>
-<div id="img-container">
-      <img src="./photos/horseshoe-bend.jpg" width=50%;>
-</div></p>
-<h2>...and hopefully you can join us in Småland, Sweden next July to celebrate!</h2>
-<h1 style=text-align:center >3 July 2021</h1>
-<p>Save the date for our marriage blessing ceremony (in the church Jakob's parents were married in 29 years ago) followed by dinner and dancing!</p>
-<p>Lots of Love,<br>
-Rebecca & Jakob<br>
-(& Jolene)
-</p>
-<div id="img-container">
-      <img src="./photos/jolene-engagement.jpg" width=20%;>
-</div></p>
-</div>
-
-
-
-
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rsvp.html">RSVP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="travel.html">Travel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="accomodation.html">Accomodation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="things-to-do.html">Thing to Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registry.html">Registry</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="content">
+    <h1>We're getting married...</h1>
+    <p>
+    <div id="img-container">
+          <img src="./photos/horseshoe-bend.jpg" width=50%;>
+    </div></p>
+    <h2>...and hopefully you can join us in Småland, Sweden next July to celebrate!</h2>
+    <h1 style=text-align:center >3 July 2021</h1>
+    <p>Save the date for our marriage blessing ceremony (in the church Jakob's parents were married in 29 years ago) followed by dinner and dancing!</p>
+    <p>Lots of Love,<br>
+    Rebecca & Jakob<br>
+    (& Jolene)
+    </p>
+    <div id="img-container">
+          <img src="./photos/jolene-engagement.jpg" width=20%;>
+    </div></p>
+    </div>
+  </div>
 </body>
-</html> 
+</html>
